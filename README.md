@@ -19,7 +19,7 @@ conda activate personalized_enformer
 ## 🧬 참조 유전체의 gene sequence에서 SNP 변경
 먼저 작업할 디렉토리로 이동합니다:
 ```bash
-mv {폴더_이름}
+cd {폴더_이름}
 ```
 그 다음, bcftools를 사용해 개인화된 유전체로 변환합니다:
 ssh leelabsg{#}
