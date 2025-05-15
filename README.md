@@ -51,3 +51,7 @@ cd {폴더_이름}
 
 # 예측 실행
 python3 enformer_prediction.py
+
+# 참조 유전체 예측치와 비교
+diff ENSG00000001630_prediction.csv ../ENSG00000001630_prediction.csv
+```
