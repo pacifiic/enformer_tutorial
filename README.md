@@ -4,4 +4,8 @@
 
 ```bash
 ssh moonwonchoi@147.47.200.131 -p 22555
-
+```
+## 📁 디렉토리 이동
+```bash
+cd /media/leelabsg-storage1/moonwon/enformer_tutorial
+```
