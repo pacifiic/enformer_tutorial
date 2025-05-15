@@ -22,7 +22,11 @@ conda activate personalized_enformer
 mv {폴더_이름}
 ```
 그 다음, bcftools를 사용해 개인화된 유전체로 변환합니다:
+ssh leelabsg{#}
 ```bash
+
+ssh leelabsg{#}
+
 bcftools consensus -s MW00105 \
   -f /media/leelabsg-storage1/moonwon/enformer_tutorial/ENSG00000001630.fa \
   -I -H 2pIu \
@@ -37,9 +41,6 @@ cd ..
 
 # 개인화 환경 비활성화
 conda deactivate
-
-# 리모트 서버로 재접속 (필요 시)
-ssh leelabsg{#}
 
 # Enformer 환경 활성화
 conda activate enformer
