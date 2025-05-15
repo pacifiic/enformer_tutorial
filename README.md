@@ -9,3 +9,6 @@ ssh moonwonchoi@147.47.200.131 -p 22555
 ```bash
 cd /media/leelabsg-storage1/moonwon/enformer_tutorial
 ```
+```bash
+mkdir /media/leelabsg-storage1/moonwon/enformer_tutorial/{파일 이름}
+```
