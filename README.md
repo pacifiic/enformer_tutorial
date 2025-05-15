@@ -29,3 +29,24 @@ bcftools consensus -s MW00105 \
   /media/leelabsg-storage1/moonwon/enformer_tutorial/tutorial.vcf.gz \
   > ./ENSG00000001630.fa
 ```
+## 🔮 변경된 시퀀스로 예측 실행
+
+```bash
+# 상위 디렉토리로 이동
+cd ..
+
+# 개인화 환경 비활성화
+conda deactivate
+
+# 리모트 서버로 재접속 (필요 시)
+ssh leelabsg{#}
+
+# Enformer 환경 활성화
+conda activate enformer
+
+# 예측 스크립트 복사 및 작업 디렉토리로 이동
+cp enformer_prediction.py {폴더_이름}
+cd {폴더_이름}
+
+# 예측 실행
+python3 enformer_prediction.py
